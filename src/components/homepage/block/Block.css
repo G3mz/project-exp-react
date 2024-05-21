@@ -1,0 +1,138 @@
+.block {
+  margin-bottom: 0px;
+}
+
+
+.block__content {
+ background-image: url('/src/img/elements/backg2.svg');
+ background-size: cover;
+ border-radius: 16px;
+ width: 100%;
+ height: 448px;
+ margin-bottom: 47px;
+ padding-top: 12px;
+ padding-left: 43px;
+ padding-bottom: 12px;
+ padding-right: 12px;
+}
+
+.block__text {
+  margin-top: 27px;
+  text-align: left; 
+  margin-right: 600px;
+  
+}
+
+
+.block__maintitle {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 75%;
+  color: #000;
+  white-space: nowrap; 
+}
+
+.block1 {
+ float: left;
+ width: 230px;
+}
+
+.block__title1 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.block__desc1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  text-align: left;
+}
+
+.block2 {
+  margin-left: 30px;
+  float: right;
+  width: 243px;
+ } 
+
+.block__title2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.block__desc2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  text-align: left;
+}
+
+
+
+.block__card {
+  background-color: rgba(255, 255, 255, 0.3);
+  float: right;
+  width: 462px;
+  height: 301px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 60px ;
+  margin-right: 50px;
+  padding-top: 37px;
+padding-left: 25px;
+padding-right: 25px;  
+}
+
+.block__cardtext1 {
+  font-size: 24px;
+  float: right;
+  color: white;
+}
+
+.blockdesc1 {
+  font-weight: 400;
+font-size: 18px;
+color: #f5f5f5;
+padding-bottom: 37px;
+}
+
+.blocktitle1 {
+  font-weight: 700;
+font-size: 96px;
+color: #f5f5f5;
+}
+
+
+.blocktitle2{
+  font-weight: 700;
+font-size: 48px;
+color: #f5f5f5;
+
+}
+.blockdesc2{
+  font-weight: 400;
+  font-size: 18px;
+  color: #f5f5f5;
+}
+
+
+.blocktitle3 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #f5f5f5;
+}
+.blockdesc3{
+  font-weight: 400;
+  font-size: 18px;
+  color: #f5f5f5;
+}
+

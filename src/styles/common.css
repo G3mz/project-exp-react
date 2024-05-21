@@ -1,0 +1,22 @@
+:root {
+    --textColor: black;
+    --accent: black;
+}
+
+body{
+
+        background-image: url('./../img/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      
+        font-family: 'DIN Pro', sans-serif;
+    color: var(--textColor);
+}
+
+.container {
+    max-width: 1241px;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative; /* Добавляем относительное позиционирование для контейнера */
+  }

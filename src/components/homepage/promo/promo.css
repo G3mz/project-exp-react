@@ -1,0 +1,181 @@
+  .promo_content {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-right: 53px;
+    margin-top: 50px;
+    margin-bottom: 47px;
+    background-image: url('/src/img/elements/header main fig.svg');
+    background-size: cover;
+    height: 604px;
+    width: 100%;
+  }
+  
+  .promo_texts{
+    float: right;
+    margin-right: 70px;
+    margin-left: 57px;
+  }
+
+
+
+  .promo_text1 {
+    max-width: 416px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 10px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .promo_text2 {
+    max-width: 416px;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 100px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .promo_text3 {
+    max-width: 416px; /* Добавляем максимальную ширину для promo_text3 */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    text-align: center;
+    
+    
+  }
+  
+
+
+
+.header_row {
+    display: flex;
+    column-gap: 30px;
+    align-items:center;
+    justify-content:space-between;
+    z-index: 1;
+    float: right;
+    margin-top: 35px;
+    margin-bottom: 95px;
+}
+
+.header_nav {
+    color: black;
+    font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: normal;
+}
+
+
+.header_nav ul {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.header_nav-btn{
+    padding: 20px 45px 20px;
+    background-color: black;
+    border-radius: 22px;
+
+    font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: normal;
+color: white;
+}
+
+
+.promo_cards{
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 30px;
+}
+
+
+.qrcard{
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffff;
+  width: 252px;
+  height: 87px;
+ margin-top: 30px;
+ margin-left: 32px;
+ margin-right: 229px;
+ margin-bottom: 229px;
+ border-radius: 16px;
+ padding-top: 10px;
+ padding-left: 90px;
+}
+
+
+.cards2{
+ margin-left: 30px;
+ margin-right: 30px;
+}
+
+.cardevent{
+  background-color: white;
+  color: black;
+  width: 205px;
+  height: 205px;
+ float: left;
+ border-radius: 16px;
+ padding-left: 10px;
+ padding-bottom: 10px;
+ padding-top: 33px;
+}
+
+.registration-button {
+  width: 143px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #000000; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста */
+  border: none; /* Убираем рамку */
+  font-size: 14px; /* Размер текста */
+  cursor: pointer; /* Изменяем курсор при наведении */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 96px;
+}
+
+
+.cardachivments{
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffff;
+  width: 205px;
+  height: 205px;
+  float: right;
+  border-radius: 16px;
+  padding-left: 21px;
+  padding-bottom: 10px;
+  padding-top: 9px;
+  padding-right: 10px;
+  line-height: 24px;
+
+}
+
+.arrow-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 124px;
+}
+
+.arrow-icon {
+  fill: #000;
+  width: 20px;
+  height: 20px;
+}

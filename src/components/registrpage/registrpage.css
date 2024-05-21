@@ -1,0 +1,224 @@
+.regwindow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #E3E6EB;
+}
+
+.progress-bar {
+  width: 329px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Add some margin between the progress bar and the container */
+}
+
+.progress-bar .step {
+  text-align: center;
+  width: 100%;
+  position: relative;
+
+}
+
+.progress-bar .step p {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.36);
+  margin-bottom: 8px;
+}
+
+.progress-bar .step .bullet {
+  height: 40px;
+  width: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.36);
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  
+}
+
+.progress-bar .step .bullet.active {
+  border-color: #4F46E5;
+  background: #4F46E5;
+}
+
+.progress-bar .step .bullet span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.progress-bar .step .bullet.active span {
+  display: none;
+}
+
+.progress-bar .step .bullet:before,
+.progress-bar .step .bullet:after {
+  position: absolute;
+  content: '';
+  bottom: 50%;
+  right: -71px;
+  height: 2px;
+  width: 71px;
+  background: rgba(0, 0, 0, 0.36);
+}
+
+.progress-bar .step .bullet.active:after {
+  background: #4F46E5;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.3s linear forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progress-bar .step:last-child .bullet:before,
+.progress-bar .step:last-child .bullet:after {
+  display: none;
+}
+
+.progress-bar .step p.active {
+  color: #4F46E5;
+  transition: 0.2s linear;
+}
+
+.progress-bar .step .check {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.progress-bar .step .check.active {
+  display: block;
+  color: #fff;
+}
+
+.containerr {
+  width: 432px;
+  height: 906px;
+  background: #D9D9D9;
+  text-align: center;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 37px 25px 44px 25px;
+  box-shadow: -23px -23px 45px #f0f0f0, 28px 28px 45px rgba(13, 39, 80, 0.16);
+}
+
+.containerr header {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
+}
+
+.containerr .form-outer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.containerr .form-outer form {
+  display: flex;
+  width: 400%;
+}
+
+.form-outer form .page {
+  width: 25%;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.form-outer form .page .title {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.form-outer form .page .field {
+  width: 100%;
+  height: 45px;
+  margin: 45px 0;
+  display: flex;
+  position: relative;
+}
+
+form .page .field .label {
+  position: absolute;
+  top: -30px;
+  font-weight: 500;
+}
+
+form .page .field input,
+form .page .field select {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #E0E4EA;
+  border-radius: 16px;
+  padding-left: 15px;
+  font-size: 18px;
+  box-shadow: inset 11px 11px 10px rgba(13, 39, 80, 0.16), inset -6px -2px 28px rgba(255, 255, 255, 0.64);
+}
+
+form .page .field button {
+  width: 100%;
+  height: calc(100% + 5px);
+  border: none;
+  background: #2861B7;
+  margin-top: 35px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+
+form .page .field button:hover {
+  background: #000;
+}
+
+form .page .btns button {
+  margin-top: 20px !important;
+}
+
+form .page .btns button.prev {
+  margin-right: 3px;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+
+form .page .btns button.next {
+  margin-left: 3px;
+}
+.end__regist{
+margin-top: 183px;
+
+
+}
+.text__end{
+  font-size: 24px;
+}
+.name__stadii{
+  text-align: left;
+}
+.custom-radio{
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+.stadii{
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
